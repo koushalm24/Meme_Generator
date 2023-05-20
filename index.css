@@ -1,0 +1,32 @@
+.main{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.main img{
+    height: 450px;
+    object-fit: cover;
+}
+
+.main .generate-btn{
+    padding:8px 20px;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    margin: 24px,0;
+    font-size:20px;
+    color: red;
+    background-color: white;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.main .generate-btn:hover {
+     padding: 8px 24px;
+     border-left: 8px solid black;
+     border-right: 8px solid black;
+     letter-spacing: 4px;
+}
+
+.main .meme-author{
+    margin: 8px
+}
